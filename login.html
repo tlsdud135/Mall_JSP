@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ch06 실습: 장바구니-로그인 페이지</title>
+<style>
+body{background-color:#7C96C9;
+	font:bold 50px "Comic Sans MS","TimesNew Roman",Sans-Serif;
+	color:white; text-align: center;}
+hr{	border:10px solid #223C6F; background-color:#223C6F;}
+input[type=text]{color:white; background-color:#223C6F;
+	border:5px solid #A2D5FF; border-radius:8px; font-size:50%;}
+input[type=text]:hover{font-size:60%;}
+input[type=submit]{font-size:40%;}
+a{text-decoration:none; color: white; font-size:35px;}
+a:hover { color: #D9E5FF; text-decoration: underline; }
+</style>
+</head>
+<body>
+<h2>로그인</h2><hr>
+<div>
+<form name="LoginForm" method="POST" action="login.jsp">
+	<input type="text" name="username" />
+	<input type="submit" value="로그인" />
+</form>
+</div>
+<a href="selProduct.jsp" >guest로 목록 보기</a>
+</body>
+</html>

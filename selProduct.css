@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+body{background-color:#7C96C9;
+	font:bold 40px "Comic Sans MS","TimesNew Roman",Sans-Serif;
+	color:white; text-align: center;}
+a{text-decoration:none; color: white; font-size:25px;}
+a:hover { color: #D9E5FF; text-decoration: underline; }
+hr{	border:7px solid #223C6F; background-color:#223C6F;}
+#con{font-size:30px;}
+label{font-size:35px;}
+label:hover{font-size:40px; color: #3163C9; text-decoration: underline;}
+input[type=submit]{font-size:60%;}
+#fom{margin-left:30%; margin-right:30%; padding: 10px; border:7px solid #223C6F; border-radius:30px;}
