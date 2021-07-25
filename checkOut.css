@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+body{background-color:#7C96C9;
+	font:bold 40px "Comic Sans MS","TimesNew Roman",Sans-Serif;
+	color:white; text-align: center;}
+a{text-decoration:none; color: white; font-size:25px;}
+a:hover { color: #D9E5FF; text-decoration: underline; }
+hr{	border:7px solid #223C6F; background-color:#223C6F;}
+input[type=text]{color:white; background-color:#223C6F;
+	border:5px solid #A2D5FF; border-radius:8px; font-size:70%; width:70px;}
+input[type=text]:hover{font-size:80%;}
+input[type=submit]{font-size:50%;}
+#con{font-size:30px;}
+#list{margin-left:30%; margin-right:30%; padding: 10px; 
+	border:7px solid #223C6F; font-size:35px; border-radius:30px;}
+span{font-size: 30px;}
